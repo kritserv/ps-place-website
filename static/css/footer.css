@@ -1,0 +1,24 @@
+.footer {
+	height: 8vh;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(255, 255, 255, .5);
+	z-index: 100;
+}
+
+.footer-menu {
+	width: 12vw;
+	height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+	.footer, .footer-menu {
+		display: none;
+	}
+}
