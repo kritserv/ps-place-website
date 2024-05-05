@@ -1,19 +1,23 @@
 .footer {
-	height: 8vh;
+	height: 50px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
 	bottom: 0;
-	left: 5%;
-	width: 90%;
-	background: rgba(255, 255, 255, .5);
+	left: 10px;
+	width: 94%;
+	background: rgba(255, 255, 255, .8);
 	z-index: 100;
 }
 
 .footer-menu {
-	width: 10vw;
-	height: auto;
+	background: white;
+	width: 10.5vw;
+	height: 10.5vw;
+	border-radius: 100%;
+	transform: translateY(-2vh);
+	border: 3px solid rgba(255, 255, 255, .4);
 }
 
 @media only screen and (min-width: 768px) {
