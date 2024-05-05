@@ -1,6 +1,7 @@
 .gallery {
 	justify-content: center;
-	width: 100%;
+	width: 98%;
+	overflow-x: hidden;
 }
 
 .gallery-img {
@@ -10,20 +11,26 @@
 @media only screen and (min-width: 768px) {
 	.gallery {
 		display: flex;
+		overflow: hidden;
+		transition: .2s;
 	}
 	.gallery-img {
 		width: auto;
-		height: 32vh;
+		height: clamp(256px, 28vh, 512px);
 		margin: 2px;
+		transition: .5s;
+	}
+	.gallery-img:hover {
+		transform: scale(1.4);
+		transition: .2s;
 	}
 }
 
 @media only screen and (max-width: 768px) {
 	.gallery-img {
-		width: 90%;
-		height: auto;
+		width: 99%;
+		height: 37vh;
 		margin-top: 10px;
-		margin-left: 3vw;
-		margin-right: 3vw;
+		border: 1vw solid white;
 	}
 }

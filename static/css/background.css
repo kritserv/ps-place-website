@@ -4,3 +4,9 @@
 	height: 70vh;
 	filter: blur(5px);
 }
+
+@media only screen and (max-width: 768px) {
+	.bg {
+		height: 25vh;
+	}
+}

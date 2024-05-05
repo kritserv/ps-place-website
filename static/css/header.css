@@ -27,7 +27,7 @@
 
 @media only screen and (min-width: 768px) {
 	.header {
-		height: 3vh;
+		height: 75px;
 		padding-top: 20px;
 		padding-bottom: 20px;
 		display: flex;
@@ -58,6 +58,7 @@
 		height: 2px;
 		background: #fff;
 		transition: .3s;
+		transform: translateY(11px);
 	}
 
 	.navbar a:hover::before {
