@@ -20,3 +20,29 @@
 .🟦 {
 	color: cadetblue;
 }
+
+.side-by-side {
+	display: flex;
+}
+
+.left-side {
+	flex: 1;
+}
+
+.right-side {
+	flex: 1;
+}
+
+.below {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.below {
+		display: block;
+		margin-top: 5px;
+		margin-bottom: 260px;
+	}
+	.right-side {
+		display: none;
+	}
