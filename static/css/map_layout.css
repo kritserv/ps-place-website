@@ -1,0 +1,58 @@
+.map-layout {
+	width: auto;
+	height: 35vh;
+	margin-bottom: 350px;
+	margin-top: 15px;
+}
+
+td {
+	width: 60px;
+	background: white;
+	text-align: center;
+	font-family: "Kanit", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	border: 2px solid #888;
+}
+
+#room {
+	height: 55px;
+}
+
+#garage1 {
+	width: 185px;
+	transform: translateY(-23px) translateX(10px);
+}
+
+#garage2 {
+	width: 55px;
+	transform: scaleY(3) translateY(10px) translateX(220px);
+}
+
+#inside-garage2 {
+	transform: scaleY(0.33);
+}
+
+#office {
+	width: 140px;
+	transform: scaleY(3) translateY(10px) translateX(140px);
+}
+
+#inside-office {
+	transform: scaleY(0.33);
+}
+
+#walk1 {
+	width: 25px;
+}
+
+#walk2 {
+	width: 60px;
+	transform: scaleY(0.42) translateY(-37px);
+}
+
+#gate {
+	width: 140px;
+	height: 15px;
+	transform: translateX(120px) rotateZ(15deg) translateY(30px);
+}
